@@ -1,0 +1,159 @@
+<project>
+ <properties encryptAssets="1" architecture="2" backgroundColor="#000000" windowHeight="0" winrt_package="com.yourdomain.yourapp" orientation="0" version="1.0" fps="60" html5_host="" win_domain="giderosmobile.com" iosDevice="0" touchToMouse="1" app_icon="../../web_hi_res_512.png" logicalWidth="1080" windowWidth="0" android_template="1" html5_mem="256" mouseTouchOrder="0" exportMode="0" packageName="com.kemine.blocktogether" ios_bundle="com.yourdomain." retinaDisplay="0" disableSplash="0" autorotation="0" splash_v_image="" osx_domain="giderosmobile.com" winrt_org="GiderosMobile" version_code="1" osx_org="GiderosMobile" mouseToTouch="1" scaleMode="3" osx_category="5" encryptCode="1" win_org="GiderosMobile" osx_bundle="com.yourdomain." splash_h_image="" tv_icon="" logicalHeight="1920">
+  <imageScales/>
+  <plugins>
+   <plugin enabled="0" name="Lpeg"/>
+   <plugin enabled="0" name="Camera"/>
+   <plugin enabled="0" name="Controller"/>
+   <plugin enabled="0" name="Google Play Services"/>
+   <plugin enabled="0" name="Microphone"/>
+   <plugin enabled="0" name="Countly"/>
+   <plugin enabled="0" name="Media plugin"/>
+   <plugin enabled="0" name="Store Detector"/>
+   <plugin enabled="0" name="Native"/>
+   <plugin enabled="0" name="Bitop"/>
+   <plugin enabled="0" name="LuaSqlite3"/>
+   <plugin enabled="0" name="Facebook"/>
+   <plugin enabled="0" name="Gaming"/>
+   <plugin enabled="1" name="Ads"/>
+   <plugin enabled="0" name="Clipper"/>
+   <plugin enabled="0" name="Flurry"/>
+   <plugin enabled="0" name="LuaFileSystem"/>
+   <plugin enabled="0" name="JSON"/>
+   <plugin enabled="0" name="Lua Socket"/>
+   <plugin enabled="0" name="Struct"/>
+  </plugins>
+  <exports>
+   <export name="APK">
+    <property value="" name="androidPath"/>
+    <property value="23" name="androidSdk"/>
+    <property value="19" name="androidTarget"/>
+    <property value="23.0.2" name="androidTools"/>
+    <property value="" name="javaPath"/>
+    <property value="" name="keyAlias"/>
+    <property value="" name="keyStore"/>
+    <property value="com.yourdomain.yourapp" name="packageName"/>
+   </export>
+  </exports>
+ </properties>
+ <file source="font.ttf"/>
+ <folder name="images">
+  <file source="images/unlock.png"/>
+  <file source="images/skins_bg.png"/>
+  <file source="images/help.png"/>
+  <file source="images/tutorial.png"/>
+  <file source="images/box.png"/>
+  <file source="images/active_chara.png"/>
+  <file source="images/upgrade_bg.png"/>
+  <file source="images/r_health.png"/>
+  <file source="images/r_flame.png"/>
+  <file source="images/r_attack.png"/>
+  <file source="images/win.png"/>
+  <file source="images/tent.png"/>
+  <file source="images/strike.png"/>
+  <file source="images/stage_header.png"/>
+  <file source="images/stage_body.png"/>
+  <file source="images/stage_bg_end.png"/>
+  <file source="images/stage_bg.png"/>
+  <file source="images/spinner_bg.png"/>
+  <file source="images/spinner.png"/>
+  <file source="images/screen.png"/>
+  <file source="images/right.png"/>
+  <file source="images/red_hp.png"/>
+  <file source="images/red_bar.png"/>
+  <file source="images/prepare.png"/>
+  <file source="images/map.png"/>
+  <file source="images/lose.png"/>
+  <file source="images/left.png"/>
+  <file source="images/leaders_bg.png"/>
+  <file source="images/heal.png"/>
+  <file source="images/flame.png"/>
+  <file source="images/flags.png"/>
+  <file source="images/flag_bg.png"/>
+  <file source="images/fallback.png"/>
+  <file source="images/dialog.png"/>
+  <file source="images/circle_play.png"/>
+  <file source="images/circle_cancel.png"/>
+  <file source="images/button_bg.png"/>
+  <file source="images/blue_hp.png"/>
+  <file source="images/blue_bar.png"/>
+  <file source="images/block_poison.png"/>
+  <file source="images/block_health.png"/>
+  <file source="images/block_flame.png"/>
+  <file source="images/block_attack.png"/>
+  <file source="images/bg.png"/>
+  <file source="images/battle_bg.png"/>
+  <file source="images/bar_bg.png"/>
+  <file source="images/bar.png"/>
+ </folder>
+ <folder name="characters">
+  <file source="characters/p_18.png"/>
+  <file source="characters/p_17.png"/>
+  <file source="characters/p_16.png"/>
+  <file source="characters/p_15.png"/>
+  <file source="characters/p_14.png"/>
+  <file source="characters/p_13.png"/>
+  <file source="characters/p_12.png"/>
+  <file source="characters/p_11.png"/>
+  <file source="characters/p_10.png"/>
+  <file source="characters/p_9.png"/>
+  <file source="characters/p_8.png"/>
+  <file source="characters/p_7.png"/>
+  <file source="characters/p_6.png"/>
+  <file source="characters/p_5.png"/>
+  <file source="characters/p_4.png"/>
+  <file source="characters/p_3.png"/>
+  <file source="characters/p_2.png"/>
+  <file source="characters/p_1.png"/>
+  <file source="characters/e_20.png"/>
+  <file source="characters/e_19.png"/>
+  <file source="characters/e_18.png"/>
+  <file source="characters/e_17.png"/>
+  <file source="characters/e_16.png"/>
+  <file source="characters/e_15.png"/>
+  <file source="characters/e_14.png"/>
+  <file source="characters/e_13.png"/>
+  <file source="characters/e_12.png"/>
+  <file source="characters/e_11.png"/>
+  <file source="characters/e_10.png"/>
+  <file source="characters/e_9.png"/>
+  <file source="characters/e_8.png"/>
+  <file source="characters/e_7.png"/>
+  <file source="characters/e_6.png"/>
+  <file source="characters/e_5.png"/>
+  <file source="characters/e_4.png"/>
+  <file source="characters/e_3.png"/>
+  <file source="characters/e_2.png"/>
+  <file source="characters/e_1.png"/>
+ </folder>
+ <file source="mech.lua"/>
+ <file source="unlock.lua"/>
+ <file source="msgbox.lua"/>
+ <file source="dialog.lua"/>
+ <file source="leader.lua"/>
+ <file source="motd.lua"/>
+ <file source="button.lua"/>
+ <file source="stage_state.lua"/>
+ <file source="hp_bar.lua"/>
+ <file source="enemy.lua"/>
+ <file source="flame_indicator.lua"/>
+ <file source="kyara.lua"/>
+ <file source="block.lua"/>
+ <file source="random.lua"/>
+ <file source="spinner.lua"/>
+ <file source="alert.lua"/>
+ <file source="easing.lua"/>
+ <file source="gtween.lua"/>
+ <file source="util.lua"/>
+ <file source="text.lua"/>
+ <file source="bar.lua"/>
+ <file source="commands.lua"/>
+ <file source="flag.lua"/>
+ <file source="api.lua"/>
+ <file source="json.lua"/>
+ <file source="main.lua"/>
+ <dependency to="commands.lua" from="api.lua"/>
+ <dependency to="json.lua" from="api.lua"/>
+ <dependency to="util.lua" from="commands.lua"/>
+ <dependency to="api.lua" from="main.lua"/>
+</project>
